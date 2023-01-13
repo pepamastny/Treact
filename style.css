@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    padding: 80px 0;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #243E63;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.purple {
+    color: #6415FF;
+}
+
+button {
+    background-color: #6415FF;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 100px;
+    padding: 14px 28px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+button:hover {
+    background-color: rgb(80 17 204);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__img {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+
+.logo__text {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav__link {
+    margin: 0 24px;
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.common {
+    padding: 0 0 4px;
+    transition: all 75ms ease;
+}
+
+.common:hover {
+    color: rgb(100 21 255);
+    border-bottom: 3px solid rgb(100 21 255);
+}
+
+.login {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.sign-up {
+    color: #fff;
+    background-color: #6415FF;
+    border-radius: 100px;
+    padding: 12px 32px;
+    margin: 0;
+    transition: all 300ms ease;
+}
+
+.sign-up:hover {
+    background-color: rgb(80 17 204);
+}
+
+
+/* 
+
+TEMPLATES
+
+*/
+
+#templates {
+    padding: 96px 0;
+}
+
+.row__templates {
+    display: flex;
+    justify-content: space-between;
+}
+
+.templates__text {
+    width: 40%;
+}
+
+.templates__title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #1A202C;
+}
+
+.templates__subtitle {
+    margin: 32px 0;
+    color: #243E63;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.templates__email {
+    display: flex;
+    position: relative;
+}
+
+.input {
+    width: 100%;
+    border: 2px solid rgb(226, 232, 240);
+    border-radius: 100px;
+    padding: 22px 192px 22px 32px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all 300ms ease;
+}
+
+.input::placeholder {
+    color: rgb(200, 206, 214);
+}
+
+.input:hover {
+    border: 2px solid rgb(160 174 192);
+}
+
+.templates__btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 8px 8px 8px 8px;
+}
+
+.templates__btn:active {
+    transform: translateY(1px);
+}
+
+.templates__company {
+    margin: 80px 0 0 0;
+}
+
+.company__text {
+    color: #A0AEC0;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.company__img {
+    margin: 16px 0 0 0;
+    width: 100%;
+    opacity: 50%;
+    padding-right: 64px;
+}
+
+.templates__img {
+    width: 60%;
+}
+
+/* 
+
+SERVICE
+
+*/
+
+.service__row {
+    max-width: 992px;
+}
+
+.service__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 96px;
+    text-align: center;
+}
+
+.section__top {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.section__title {
+    font-size: 48px;
+    color: #243E63;
+    font-weight: 900;
+}
+
+.section__para {
+    width: 100%;
+    max-width: 576px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 16px;
+    color: #7C8BA1;
+}
+
+.service__points {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service__point {
+    width: calc(100% / 3);
+    display: flex;
+    margin-bottom: 50px;
+    padding-right: 30px;
+}
+
+.service__point--img {
+    border: 1px solid rgb(226, 232, 240);
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.service__point--header {
+    font-size: 24px;
+    font-weight: 700;
+    color: #243E63;
+}
+
+.service__point--para {
+    margin-top: 16px;
+    line-height: 2;
+    font-size: 16px;
+    font-weight: 500;
+    color: #7C8BA1;
+}
+
+.service__point--text {
+    margin-left: 20px;
+}
+
+
+/* 
+
+PROFESSIONALS
+
+*/
+
+.row__professionals {
+    display: flex;
+}
+
+
+.professionals__text {
+    width: 50%;
+}
+
+.professionals__btn {
+    margin-top: 30px;
+}
+
+.professionals__img {
+    width: 50%;
+    height: 100%;
+    border: 1px solid rgb(226, 232, 240);
+    border-radius: 4px;
+}
+
+/* 
+
+GET STARTED
+
+*/
+
+.row__getstarted {
+    display: flex;
+    align-items: center;
+}
+
+.getstarted__img {
+    width: 50%;
+    height: 100%;
+}
+
+.getstarted__text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+
+.getstarted__list {
+    display: flex;
+    margin-top: 32px;
+}
+
+.getstarted__number {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+    color: rgb(203 213 224);
+}
+
+.getstarted__description {
+    margin-left: 24px;
+    width: 100%;
+    max-width: 330px;
+}
+
+.getstarted__description--header {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    color: #243E63;
+}
+
+.getstarted__description--para {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(113 128 150);
+    margin-top: 12px;
+    line-height: 2;
+}
+
+
+/* 
+
+PRINCIPLES
+
+*/
+
+.row__principles {
+    display: flex;
+}
+
+.principles__text {
+    width: 50%;
+}
+
+.principles__points {
+    display: flex;
+    margin-top: 32px;
+}
+
+.principles__point {
+    margin-top: 32px;
+    margin-right: 32px;
+}
+
+.principles__point--header {
+    display: flex;
+    align-items: center;
+}
+
+.principles__point--green,
+.principles__point--red {
+    border-radius: 100px;
+    width: 100%;
+    max-width: 36px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principles__point--green {
+    background-color: rgb(154 230 180);
+}
+
+.principles__point--red {
+    background-color: rgb(254 178 178);
+}
+
+.principles__point--img {
+    width: 20px;
+    height: 20px;
+}
+
+.principles__point--title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #243E63;
+    margin-left: 20px;
+}
+
+.principles__point--text {
+    color: rgb(113 128 150);
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 1.6;
+}
+
+.principles__btn {
+    margin-top: 48px;
+}
+
+.principles__img {
+    width: 50%;
+}
