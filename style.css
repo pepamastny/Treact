@@ -132,6 +132,7 @@ BARS
     text-align: center;
     border: none;
     display: none;
+    cursor: pointer;
 }
 
 .menu__backdrop {
